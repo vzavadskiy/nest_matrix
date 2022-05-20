@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title SuperBlog!
+    style
+    body
+        h1 Welcome to SuperBlog!
+        ul
+
+          each post in posts
+              li #{post.title}
+                  a(href=post.id) Читать
+        a(href="create") Создать

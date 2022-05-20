@@ -1,0 +1,3 @@
+
+Для входа в DB под определённым юзером
+psql [database_name] [user_name]
